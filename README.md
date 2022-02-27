@@ -1,10 +1,10 @@
 # pyspark
 
-This repository is an introduction to using pyspark for Big Data. The tutorials are taking from [guru99](https://www.guru99.com/pyspark-tutorial.html)
+This repository is an introduction to using pyspark for Big Data. This tutorial was taking from [guru99](https://www.guru99.com/pyspark-tutorial.html)
 
 ## Notes and Definitions:
 
-1. Bog Data
+1. Big Data
 2. Apache Spark 
 3. What is PySpark? 
 
@@ -20,7 +20,9 @@ Spark works closely with structured data and allows real-time querying of the da
 
 ### Installation
 
-See [instructions](https://www.guru99.com/pyspark-tutorial.html)
+`conda install pyspark` should work given you are working in an python env. Otherwise see [instructions](https://www.guru99.com/pyspark-tutorial.html)
+
+Initiation of SparkContext is also necessary. SparkContext is the internal engine that allows connections with clusters. It is needed to run an operation. 
 
 Last Updated:
 February 27th, 2022
